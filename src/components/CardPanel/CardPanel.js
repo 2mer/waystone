@@ -1,4 +1,4 @@
-import { Box, Group, ScrollArea, Stack, Text, Title } from '@mantine/core';
+import { Stack, Text, Title } from '@mantine/core';
 import React from 'react';
 import LocationCard from './LocationCard/LocationCard';
 import locations from './locations';
