@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+# Waystone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+a worldbuilding exercise
 
-## Available Scripts
+## Lore
 
-In the project directory, you can run:
+you stumble across a weird looking website after digging around in a weird part of the internet for a while, upon closer you conclude that the website is of alien origin.
 
-### `npm start`
+the purpose of the website is to serve a web app that communicates with the galacticore content delivery network (GCDN).
+the galacticore can dematerialize an assortment of particles (objects, living entities) - which will be called henceforth the "payload",
+route it across the GCDN with proximity, traffic, and dimensional stability optimizations in mind - until the target reaches its destination
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+the core usage plan is free, premium users get higher priority when queuing.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+waystone is but a service in an AWS esque galactic level scaling solution company
+said company also provides these services:
 
-### `npm test`
+-   **particle wallet**: you are able to buy and bank particles, trading particles by demand or use particles
+-   **particle pawn**: you pawn particles from you wallet, particles may be "loaned" by the system in order to speed up services like regional waystone materialization, you get money for each timeframe specified by plan contract while your particles are pawned, and a flat amount when they are used.
+-   **deep freeze**: you set up an investment pipeline, upon confirmation you get dematerialized into your wallet, upon specified triggers in plan you will get reconstructed out of your wallet
+-   **particle trading/investment**
+-   **particle debt collection**: incase the user reached negative particle count, the user will have a timeframe to acquire more particles, in case the user does not negate the negative particle count in the given timeframe, users possesions and/or the user it self will be dematerialized and their particles be reprioritized towards automata construction, in this case the user will enter a forced deep freeze plan, until the automata linked to the plan generates enough resources for the balance to stabilize
+-   **recycle**: you can recycle objects down to the particle level, recycled particles are stored in the particle wallet
+-   **construct**: construct objects using particles, different particles are required per material
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Common plans:
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-   hivemind civilizations use recycle their kin depending on the situation, allowing more troops at war, and more workers when peaceful
+-   recycle plan eliminates the need for garbage collection and recycling logistics
