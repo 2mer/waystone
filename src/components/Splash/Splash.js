@@ -1,9 +1,7 @@
 import {
 	Badge,
-	Blockquote,
 	Box,
 	Button,
-	Chip,
 	Divider,
 	Group,
 	Image,
