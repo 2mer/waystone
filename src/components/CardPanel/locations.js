@@ -17,9 +17,10 @@ const locations = [
 	{
 		name: 'COL O_IIM',
 		cost: 5,
-		images: { folder: 'ks15', length: 3 },
+		images: { folder: 'col', length: 6 },
 		indications: [],
-		description: '',
+		description:
+			'aquatic planet with an unstable rule, the waters are constantly at war with each other. cloaking solution is recommended unless you are immune to stray galactic grade projectiles',
 	},
 ];
 
