@@ -1,25 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import { RecoilRoot } from 'recoil';
+import LanguageProvider from './components/LanguageProvider/LanguageProvider';
+import MainScreen from './components/MainScreen/MainScreen';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<RecoilRoot>
+			<LanguageProvider>
+				<MainScreen />
+			</LanguageProvider>
+		</RecoilRoot>
+	);
 }
 
 export default App;
