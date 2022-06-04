@@ -4,7 +4,7 @@ import {
 	Collapse,
 	Divider,
 	Group,
-	Progress,
+	Loader,
 	Stack,
 	Text,
 } from '@mantine/core';
@@ -72,16 +72,13 @@ export default function NavPanel() {
 							color='yellow'
 							title={<Text size='xs'>SLOW CONNECTION</Text>}
 						>
-							<Text size='xs' sx={{ opacity: 0.5 }}>
-								YOUR CONNECTION TO THE GCDN IS SLOWER THAN USUAL
-							</Text>
-							<Progress
-								color='yellow'
-								value={100}
-								animate
-								label='CONNECTING'
-								size='xl'
-							/>
+							<Group noWrap>
+								<Text size='xs' sx={{ opacity: 0.5 }}>
+									YOUR CONNECTION TO THE GCDN IS SLOWER THAN
+									USUAL
+								</Text>
+								<Loader color='yellow' size='xl' />
+							</Group>
 						</Alert>
 					</Stack>
 				</Collapse>
