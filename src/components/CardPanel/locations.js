@@ -4,7 +4,8 @@ const locations = [
 		cost: 5,
 		images: { folder: 'ks15', length: 7 },
 		indications: [],
-		description: 'atmospheric resort with ',
+		description:
+			'atmospheric resort, great for a peaceful first jump. Many come to admire the clash between the sky and the terrain of this planet',
 	},
 	{
 		name: 'KARAKOR SANADIN',

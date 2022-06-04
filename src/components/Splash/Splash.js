@@ -76,7 +76,7 @@ export default function Splash() {
 
 							<Recommendation
 								avatar='avatars/p1.jpg'
-								cite='KOREX AUXILLARY PROBE V O_X'
+								cite='XIQOL_BARATOOM'
 							>
 								AMAZING TECHNOLOGY, I DONT SEE MYSELF GOING BACK
 								TO GALACTIC TRAFFIC AFTER THIS

@@ -11,9 +11,12 @@ import {
 import React, { useState } from 'react';
 import LocationButton from './LocationButton';
 import { CaretUp } from 'tabler-icons-react';
+import { useDisclosure } from '@mantine/hooks';
+import LoginModal from '../../LoginModal/LoginModal';
 
 export default function LocationCard({ location, reverse = false }) {
 	const [selectedImage, setSelectedImage] = useState(0);
+	const [opened, handlers] = useDisclosure(false);
 
 	return (
 		<Group
@@ -93,6 +96,7 @@ export default function LocationCard({ location, reverse = false }) {
 										to: 'blue',
 										deg: 60,
 									}}
+									onClick={() => handlers.open()}
 								>
 									JUMP
 								</Button>
@@ -102,6 +106,9 @@ export default function LocationCard({ location, reverse = false }) {
 					</Card.Section>
 				</Card>
 			</Stack>
+
+			{/* modals */}
+			<LoginModal open={opened} onClose={() => handlers.close()} />
 		</Group>
 	);
 }
